@@ -7,14 +7,16 @@ pipeline {
     sh '/usr/bin/npm install'
    }
   }
-  stage('Test') {
+  stage('start') {
    steps {
-    echo 'Testing..'
+    echo 'starting node js project'
+    sh '/usr/bin/pm2 start index.js'
    }
   }
   stage('Deploy') {
    steps {
     echo 'Deploying....'
+    echo 'Deployed'
    }
   }
  }
