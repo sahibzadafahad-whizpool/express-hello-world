@@ -20,4 +20,4 @@ $ docker build -t hello-world-image .
 
 
 
-updated by fahad8
+updated by fahad pm2 should restart by itself
