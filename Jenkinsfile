@@ -10,7 +10,7 @@ pipeline {
   stage('start') {
    steps {
     echo 'starting node js project'
-    sh '/usr/bin/pm2 start index.js'
+    sh '/usr/bin/npm start'
    }
   }
   stage('Deploy') {
