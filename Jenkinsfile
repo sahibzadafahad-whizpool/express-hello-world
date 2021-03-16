@@ -10,7 +10,6 @@ pipeline {
   stage('start') {
    steps {
     echo 'starting node js project'
-    sh '/usr/bin/npm start'
    }
   }
   stage('Deploy') {
