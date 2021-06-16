@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: testing ssh connection
-      uses: 
+      uses: sahibzadafahad/express-hello-world@master 
       with:
         host: 54.39.177.68
         username: express
