@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello i am testing github actions and webhooks and test actions')
+  res.send('Hello i am testing github actions and webhooks and test actions2')
 })
 
 app.listen(3000, function () {
