@@ -19,8 +19,3 @@ jobs:
           cd express-hello-world
           git pull origin development
           git status
-          npm install
-          chmod 777 -R container.sh
-          ./container.sh
-          docker build -t express-hello-world .
-          docker run --name hello-world -it -d -p 3000:3000 express-hello-world
